@@ -13,7 +13,7 @@ const Home = ({ movieSearched }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    const API_KEY = "4e44d9029b1270a757cddc766a1bcb63"; // Replace with your own API key
+    const API_KEY = "4e44d9029b1270a757cddc766a1bcb63";
     const url = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`;
 
     axios

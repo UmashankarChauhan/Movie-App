@@ -6,7 +6,7 @@ const Navbar = ({ query, rocky, searchMovies }) => {
   return (
     <>
       <nav>
-        <Link className="logo" to="/">
+        <Link className="logo" to="/Movie-App">
           MOVIES
         </Link>
         <ul>

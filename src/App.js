@@ -32,7 +32,10 @@ function App() {
       <Navbar searchMovies={searchMovies} query={query} rocky={setQuery} />
 
       <Routes>
-        <Route index element={<Home movieSearched={movieSearched} />}></Route>
+        <Route
+          path="/Movie-App"
+          element={<Home movieSearched={movieSearched} />}
+        ></Route>
         <Route path="movie/:id" element={<Movie />}></Route>
         <Route path="movies/:type" element={<Movieslist />}></Route>
         <Route path="/*" element={<Errorpage />}></Route>
